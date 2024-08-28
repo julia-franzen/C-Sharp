@@ -1,0 +1,120 @@
+1)
+//declara a variável nome e carrega com Pedro
+string nome = "Pedro";
+//exibe o nome (Pedro) na tela
+Console.WriteLine(nome);
+//aguarda que o usuário 
+//tecle algo para fechar a tela
+Console.Readkey();
+
+2)
+//Faça um programa que lê a informação digitada pelo usuário e posteriormente exibe
+string nome;
+string sobrenome;
+
+Console.WriteLine("Digite o nome");
+nome = Console.ReadLine();
+
+Console.WriteLine("Digite o sobrenome");
+sobrenome = Console.ReadLine();
+
+Console.WriteLine(nome+ " " + sobrenome);
+Console.ReadKey();
+
+3)
+//Faça um programa que lê a informação digitada pelo usuário e posteriormente exibe
+//Exemplo de declaração de variáveis:
+string nome, sobrenome;
+int idade, numero, x;
+double salario, preco, peso; 
+string sobrenome;
+
+Console.WriteLine("Digite o nome");
+nome = Console.ReadLine();
+
+Console.WriteLine("Digite o sobrenome");
+sobrenome = Console.ReadLine();
+
+Console.WriteLine(nome+" " + sobrenome);
+Console.ReadKey();
+
+4)
+//TRY/CATCH //Testa
+try //tentar
+{
+
+double lado1, lado2, area;
+
+Console.WriteLine("Digite a altura do retângulo:");
+lado1 = Double.Parse(Console.ReadLine()); //Double.Parse = transforma em número
+
+Console.WriteLine("Digite a base do retângulo:");
+lado2 = Double.Parse(Console.ReadLine());
+
+area = lado1 * lado2;
+Console.WriteLine("A área do retângulo é: " "+ area.ToString()); //ToString = transforma em string
+Console.ReadKey();
+}
+
+catch (Exception ex)
+{
+    Console.WriteLine("Erro desconhecido ocorreu. " + "\n" + ex.Message);
+}
+
+
+
+BANCO DE DADOS
+
+1)
+Create table produto
+(idproduto number (7),
+descricao Varchar2(100),
+peso NUmber (7,4),
+ativoinativo Varchar2(1));
+
+desc produto; -- describe-- descreve as colunas da tabela
+alter table  produto add preco number(12,2);
+
+--imserir dados em uma tabela
+insert into produto (idproduto, descricao, peso, ativoinativo, preco)
+values (1, 'pao', 0.2, 'A', 2);
+insert into produto (idproduto, descricao, peso, ativoinativo, preco)
+values (2, 'leite', null, 'A', 4.2);
+
+--para visualizar as informações inseridas na tabela,
+
+select * from produto;
+
+2)
+Create table cliente
+(idcliente number (7),
+nome varchar2 (100),
+endereco Varchar2 (100),
+idade number (3),
+vlrrenda number (12,2));
+
+desc cliente
+   
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (1, 'Julia', 'Novo Hamburgo', 23, 20.000);
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (2, 'Gustavo', 'NH', 19, 30.000);
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (3, 'Rosane', 'Novo Hamburgo', 55, 40.000 );
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (4, 'Jorge', 'Novo Hamburgo', 64, 50.000);
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (5, 'Jeny', 'Novo Hamburgo',85, 60.000 );
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (6, 'Maila', 'Novo Hamburgo', 15, 70.000);
+insert into cliente (idcliente, nome, endereco, idade, vlrrenda)
+ values (7, 'Peppa', 1, 'Novo Haamburgo', 80.000);
+
+
+select *from cliente
+order by idcliente --desc ao lado / decrescente -- idade, nome--
+
+
+-- insert into cliente values (7, 'Peppa', 1, 'Novo Hamburgo', 80.000); --  na ordem da tabela criada no começo
+-- alter table cliente column vlrrenda; / exclui coluna
+--drop table cliente; / para eliminar tabela / nao tem volta!!

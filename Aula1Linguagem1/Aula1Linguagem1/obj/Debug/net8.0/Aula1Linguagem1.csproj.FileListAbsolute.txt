@@ -1,0 +1,14 @@
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.AssemblyInfoInputs.cache
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.AssemblyInfo.cs
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.csproj.CoreCompileInputs.cache
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\bin\Debug\net8.0\Aula1Linguagem1.exe
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\bin\Debug\net8.0\Aula1Linguagem1.deps.json
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\bin\Debug\net8.0\Aula1Linguagem1.runtimeconfig.json
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\bin\Debug\net8.0\Aula1Linguagem1.dll
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\bin\Debug\net8.0\Aula1Linguagem1.pdb
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.dll
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\refint\Aula1Linguagem1.dll
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.pdb
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\Aula1Linguagem1.genruntimeconfig.cache
+C:\Users\Júlia\OneDrive\Documentos\C#\Aula1Linguagem1\Aula1Linguagem1\obj\Debug\net8.0\ref\Aula1Linguagem1.dll
